@@ -82,8 +82,8 @@ touch $SSHDIR/authorized_keys
 cat $PUBKEY >> $SSHDIR/authorized_keys
 chmod 600 $SSHDIR/authorized_keys
 
-sudo touch /users/zm875176/.ssh/config
-sudo echo "StrictHostKeyChecking no" | sudo tee --append /users/zm875176/.ssh/config
+sudo touch /users/jt876084/.ssh/config
+sudo echo "StrictHostKeyChecking no" | sudo tee --append /users/jt876084/.ssh/config
 
 CUSTOM_USER=lngo
 CUSTOM_SSHDIR=/users/lngo/.ssh
